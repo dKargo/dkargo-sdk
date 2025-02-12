@@ -1,0 +1,46 @@
+{
+  "name": "@dkargo/sdk",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test:integration": "mocha ./test/integration/* --timeout 30000000",
+    "test:TokenBridge": "npx mocha ./test/integration/TokenBridge.test.ts --timeout 30000000",
+    "test:unit": "npx hardhat test ./test/unit/*.test.ts",
+    "build": "rm -rf ./dist && tsc",
+    "stress": "ts-node ./scripts/stress.ts"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@arbitrum/nitro-contracts": "^2.1.1",
+    "@arbitrum/sdk": "^4.0.2",
+    "@arbitrum/token-bridge-contracts": "^1.2.3",
+    "@offchainlabs/upgrade-executor": "^1.1.0-beta.0",
+    "@openzeppelin/contracts": "^4.8.3",
+    "ethers": "^5.7.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@typechain/ethers-v5": "^10.0.0",
+    "@typechain/hardhat": "^6.0.0",
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^22.0.0",
+    "@types/yargs": "^17.0.33",
+    "chai": "^4.5.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.6",
+    "mocha": "^10.7.0",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.5.4"
+  }
+}
