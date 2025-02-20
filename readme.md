@@ -65,7 +65,7 @@ Here's a basic example of using the SDK to bridge DKA:
     const txReceipt = await deposit.wait()
     console.log(`Deposit initiated: ${txReceipt.transactionHash}`)
     ```
-For more detailed usage examples and API references, please refer to the [dkargo-tutorials@TODO](link.).
+For more detailed usage examples and API references, please refer to the [dkargo-tutorials](https://github.com/dKargo/dkargo-tutorials).
 
 
 ## Running Integration Tests

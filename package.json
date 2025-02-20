@@ -1,6 +1,7 @@
 {
   "name": "@dkargo/sdk",
   "version": "1.0.0",
+  "description": "Typescript library client-side interactions with Dkargo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,10 +14,15 @@
   "files": [
     "dist/**/*"
   ],
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dKargo/dkargo-sdk.git"
+  },
+  "keywords": [
+    "dkargo"
+  ],
   "author": "",
-  "license": "ISC",
-  "description": "",
+  "license": "Apache-2.0",
   "dependencies": {
     "@arbitrum/nitro-contracts": "^2.1.1",
     "@arbitrum/sdk": "^4.0.2",
@@ -42,5 +48,12 @@
     "ts-node": "^10.9.2",
     "typechain": "^8.3.2",
     "typescript": "^5.5.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/dKargo/dkargo-sdk/issues"
+  },
+  "homepage": "https://github.com/dKargo/dkargo-sdk#readme"
 }

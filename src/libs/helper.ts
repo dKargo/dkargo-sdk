@@ -1,5 +1,4 @@
 import { ArbitrumNetwork, ChildToParentMessageStatus, Erc20Bridger, getArbitrumNetwork , ParentToChildMessageStatus} from '@arbitrum/sdk';
-import { getDkargoNetworkInfo } from './dataEntities/network';
 import { JsonRpcProvider } from './utils/types';
 import { ERC20Bridge } from './system/Bridge';
 

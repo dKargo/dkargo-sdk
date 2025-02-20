@@ -4,6 +4,7 @@ export { CustomTokenBridge } from './libs/bridge/CustomTokenBridge';
 
 /** Library */
 export { getArbitrumNetwork } from '@arbitrum/sdk';
+export { getDkargoNetwork } from './libs/dataEntities/network'
 
 /** Type */
 export { ParentToChildMessageNoGasParams } from '@arbitrum/sdk/dist/lib/message/ParentToChildMessageCreator';

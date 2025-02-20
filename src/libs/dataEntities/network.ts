@@ -34,7 +34,7 @@ export const registerDkargoNetworkInfo = (network: DkargoNetworks) => {
 };
 
 
-export const getDkargoNetworkInfo = async (provider: Provider):Promise<DkargoNetworks> => {
+export const getDkargoNetwork = async (provider: Provider):Promise<DkargoNetworks> => {
   const network = await getArbitrumNetwork(provider);
   if(!network.nativeToken) {
     throw new ArbSdkError("Not Dkargo Network")
