@@ -1,6 +1,6 @@
 {
   "name": "@dkargo/sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript library client-side interactions with Dkargo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,8 +29,7 @@
     "@arbitrum/token-bridge-contracts": "^1.2.3",
     "@offchainlabs/upgrade-executor": "^1.1.0-beta.0",
     "@openzeppelin/contracts": "^4.8.3",
-    "ethers": "^5.7.2",
-    "yargs": "^17.7.2"
+    "ethers": "^5.7.2"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
@@ -47,7 +46,8 @@
     "mocha": "^10.7.0",
     "ts-node": "^10.9.2",
     "typechain": "^8.3.2",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "yargs": "^17.7.2"
   },
   "directories": {
     "test": "test"

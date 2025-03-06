@@ -17,10 +17,6 @@ A TypeScript library for client-side interactions with Dkargo. The Dkargo SDK pr
 ## Installtion
 ```bash
 npm install @dkargo/sdk
-
-# or
-
-yarn add @dkargo/sdk
 ```
 
 ## Key Features
