@@ -32,7 +32,9 @@ export class CustomTokenBridge extends AdminErc20Bridger {
         return await ERC20__factory.connect(erc20ParentAddress,parentProviderOrSigner).balanceOf(ownerAddress)
       }
     
-      async getChildErc20Balance(erc20ParentAddress:string, ownerAddress: string, childProviderOrSigner:SignerOrProvider)  {
-        return await ERC20__factory.connect(erc20ParentAddress,childProviderOrSigner).balanceOf(ownerAddress)
+      async getChildErc20Balance(erc20ParentAddress:string, ownerAddress: string, parentProviderOrSigner:SignerOrProvider, childProviderOrSigner:SignerOrProvider)  {
+        const parentProvider = SignerProviderUtils.getProviderOrThrow(parentProviderOrSigner)
+        const erc20ChildAddress = await this.getChildErc20Address(erc20ParentAddress,parentProvider)
+        return await ERC20__factory.connect(erc20ChildAddress,childProviderOrSigner).balanceOf(ownerAddress)
       }
 }

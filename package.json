@@ -1,6 +1,6 @@
 {
   "name": "@dkargo/sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Typescript library client-side interactions with Dkargo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
