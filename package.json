@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test:integration": "mocha ./test/integration/* --timeout 30000000",
-    "test:TokenBridge": "npx mocha ./test/integration/TokenBridge.test.ts --timeout 30000000",
+    "test:TokenBridge": "npx mocha ./test/integration/StandardTokenBridge.test.ts --timeout 30000000",
     "test:unit": "npx hardhat test ./test/unit/*.test.ts",
     "build": "rm -rf ./dist && tsc",
     "stress": "ts-node ./scripts/stress.ts"

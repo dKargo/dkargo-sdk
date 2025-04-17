@@ -272,7 +272,6 @@ describe('L2 <-> L3 ERC20 Token Bridge', () => {
         const isDeposit = await receipt.waitForChildTransactionReceipt(childProvider);
 
         const depositTx = await receipt.getParentToChildMessages(childProvider)
-        console.log(depositTx[0].retryableCreationId);
         
         const status = await isDeposit.message.status();
         expect(status).eql(ParentToChildMessageStatus.REDEEMED);
