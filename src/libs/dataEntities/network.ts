@@ -1,7 +1,7 @@
 import { L2Network, getArbitrumNetwork, mapL2NetworkToArbitrumNetwork, registerCustomArbitrumNetwork } from '@arbitrum/sdk';
 import { DkargoNetworks, Provider } from '../utils/types';
 import { ArbSdkError } from '@arbitrum/sdk/dist/lib/dataEntities/errors';
-import {  DKARGO_MINIMAL_NETWORK } from './networkInfo';
+import {  DKARGO_ANYTRUST_NETWORK } from './networkInfo';
 
 /**
 * Storage for all Arbitrum networks, either L2 or L3.
@@ -9,12 +9,12 @@ import {  DKARGO_MINIMAL_NETWORK } from './networkInfo';
 const dkargoToken: {
  [id: string]: string
 } = {
-  11155111:"0x3fc9db68F6c09089C25E2482A924c9B5C5996C46",
+  11155111:"0xB55F1261a635919fEEba99e4142608D589d72842",
   1:"0x5dc60C4D5e75D22588FA17fFEB90A63E535efCE0"
 }
 
 export const registerSepoliaDkargoNetwork = () => {
-  const _network = DKARGO_MINIMAL_NETWORK
+  const _network = DKARGO_ANYTRUST_NETWORK
 
   const dkargoNetwork = mapL2NetworkToArbitrumNetwork({
     ..._network.l2Network,

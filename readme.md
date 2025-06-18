@@ -1,6 +1,6 @@
 # Dkargo SDK
 
-![npm version](https://img.shields.io/badge/version-1.0.0-green)
+![npm version](https://img.shields.io/badge/version-1.1.0-green)
 ![npm](https://img.shields.io/badge/@arbitrum/sdk-4.0.2-blue)
 ![npm](https://img.shields.io/badge/ethers-5.7.2-black)
 

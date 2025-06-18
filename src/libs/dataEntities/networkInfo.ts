@@ -1,10 +1,10 @@
-export const DKARGO_MINIMAL_NETWORK = {
+export const DKARGO_ANYTRUST_NETWORK = {
   "l1Network": {
     "blockTime": 10,
     "chainID": 421614,
     "explorerUrl": "",
     "isCustom": true,
-    "name": "EthLocal",
+    "name": "dKargo-warehouse",
     "partnerChainIDs": [
       61022448
     ],
@@ -14,11 +14,11 @@ export const DKARGO_MINIMAL_NETWORK = {
     "chainID": 61022448,
     "confirmPeriodBlocks": 45818,
     "ethBridge": {
-      "bridge": "0x68Cdd5F1D270C2Ea2F309E310E52aC2Ad1e4e780",
-      "inbox": "0x1665B82bd0Ac4c7d7e775C97AB87CC6114f823F6",
-      "outbox": "0x9123483986DAe5B0C990bb71049342208a616506",
-      "rollup": "0xB41a76fc71f83F1dD21c21133c3E55d3fb0E9065",
-      "sequencerInbox": "0xd7690cF49bCb1fd321DFB2E056E2C6711eA0995c"
+      "bridge": "0xC7e932238A2d9fccFa33FF5e8Deed966F0460Ea7",
+      "inbox": "0xaecdEd066B62712Ad6Ce7F65E00571F8991b8642",
+      "outbox": "0x149607bCbcCDBB39f76e19943a6d150E2a2f66a2",
+      "rollup": "0xe66eBA4f90911fd14B2183b1EF0e9636Bbda1e0e",
+      "sequencerInbox": "0xCEcDd6E3ff446BB9D0bef548B1F481bc09202885"
     },
     "explorerUrl": "",
     "isArbitrum": true,
@@ -31,23 +31,21 @@ export const DKARGO_MINIMAL_NETWORK = {
     "nitroGenesisL1Block": 0,
     "depositTimeout": 900000,
     "tokenBridge": {
-      "l1CustomGateway": "0x3861a1352925ba5FEf8fb6fe1770BE744DA44CDB",
-      "l1ERC20Gateway": "0x01af335fA63C5647F3A16430c254702c6B1b914C",
-      "l1GatewayRouter": "0x6d5452fa328c4640590a5C6351e2D073b5212754",
-      "l1MultiCall": "0x47B70A275fE28115e43C67f0dD3681BCCe35b5Bf",
-      "l1ProxyAdmin": "0xC98F9D83Ecdaa419a34904F5DB7666a9087f255A",
+      "l1CustomGateway": "0x203F2BA85b3ea74d68642D89143174D3dFbEf971",
+      "l1ERC20Gateway": "0x95F29bAE1Fb7e9FB5F85C22666550c541F426dA7",
+      "l1GatewayRouter": "0x97EA4122cf29525bD0cF7B49700478fE4A914249",
+      "l1MultiCall": "0xce1CAd780c529e66e3aa6D952a1ED9A6447791c1",
+      "l1ProxyAdmin": "0x66adb680E5a4f1a83796044490342D9832b43228",
       "l1Weth": "0x0000000000000000000000000000000000000000",
       "l1WethGateway": "0x0000000000000000000000000000000000000000",
-      "l2CustomGateway": "0x9ABB690758c5a9949C7BE0eE0bbb0E1bC3DC1e05",
-      "l2ERC20Gateway": "0xE997d8A615E5cCb20dB149ca12773b92776bAD55",
-      "l2GatewayRouter": "0xdef00B233e2DEf4C0d8037FdF16ae34fbc6a0Fa6",
-      "l2Multicall": "0x484522a06cf68e60b8750272582E0AD70e7DF1b6",
-      "l2ProxyAdmin": "0xfA6b06E1879AEcAA6bBF1cE2901a036801d2Df61",
+      "l2CustomGateway": "0x57afe9E80bb837D91C7E871bF68e68142A4Ea0d2",
+      "l2ERC20Gateway": "0xD9B2b6A1D61140A24b6E9a1dA9B836A8B73e4cE8",
+      "l2GatewayRouter": "0xaaa492673Ea2E1A881Edd34446de425ffe6B23BF",
+      "l2Multicall": "0xb5138E24231Bd50367Ef37a476630c42550e9E37",
+      "l2ProxyAdmin": "0xF78D7032E6e24B54159Ea3365e82B0abe399567d",
       "l2Weth": "0x0000000000000000000000000000000000000000",
       "l2WethGateway": "0x0000000000000000000000000000000000000000"
-    }
+    },
   },
-  "l1TokenBridgeCreator": "0x553938ab4a8b9A90378aEF80D2D035a69947f3b5",
-  "retryableSender": "0x0fE3B8330f253890848764B893530c21E768A798",
-  "nativeToken":"0x0fE3B8330f253890848764B893530c21E768A798"
+  "nativeToken":"0x6d9c6F7445C4D3a8fa3fC269f020e12eBF3ACD66",
 }
