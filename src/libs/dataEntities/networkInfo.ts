@@ -77,7 +77,7 @@ export const DKARGO_MAINNET_NETWORK = {
     "isTestnet": false,
     "isCustom": true,
     "name": "dKargo",
-    "partnerChainID": 421614,
+    "partnerChainID": 42161,
     "retryableLifetimeSeconds": 604800,
     "nitroGenesisBlock": 0,
     "nitroGenesisL1Block": 0,

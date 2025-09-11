@@ -11,8 +11,7 @@ describe('Get Network Info', () => {
   });
   it('get dKargo(mainnet) network info', async () => {
     const parentProvider = new ethers.providers.JsonRpcProvider('https://mainnet-rpc.dkargo.io');
-    const network = await getArbitrumNetwork(parentProvider);
-
+    const network = await getArbitrumNetwork(parentProvider);    
     expect(network.chainId).eql(61022894);
   });
 });
